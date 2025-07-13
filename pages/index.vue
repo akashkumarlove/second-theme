@@ -97,8 +97,8 @@
 
             <!-- Large Image -->
             <div class="relative mt-15 ">
-                <div class="h-[380px] md:h-auto">
-                    <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy" class=" rounded-2xl h-full sm:h-auto mx-auto object-cover sm:object-cover"/>
+                <div class="h-[380px] md:h-auto 2xl:w-full 2xl:h-screen">
+                    <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy" class=" rounded-2xl 2xl:h-full 2xl-full sm:h-auto mx-auto object-cover"/>
                 </div>
 
                 <span
@@ -106,7 +106,7 @@
                     product of the year </span>
 
                 <!-- text Box-->
-                <div class="absolute left-4 md:left-25 lg:left-10 top-59 md:top-55 lg:top-120">
+                <div class="absolute left-4 md:left-25 lg:left-10 top-59 md:top-55 lg:top-120 2xl:scale-115">
                     <span
                         class=" font-[Rubik] font-semibold text-[20px] md:text-[40px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
                         AIR MAX</span>
@@ -117,7 +117,7 @@
                 </div>
 
                 <!-- Inner images -->
-                <div class="absolute top-42 md:top-30 right-2 md:right-5 lg:top-90 lg:right-10">
+                <div class="absolute top-42 md:top-30 right-2 md:right-5 lg:top-90 lg:right-10 2xl:scale-130">
                     <div class="md:w-30 w-20 lg:w-40">
                         <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
                             class=" h-auto mx-auto object-cover" />
@@ -170,9 +170,9 @@
 
             <!-- Images -->
             <div class="md:mt-15 mt-7 flex ">
-                <div class="bg-[#ECEEF0] w-[681px] rounded-bl-4xl rounded-tl-4xl relative">
+                <div class="bg-[#ECEEF0] w-[681px] 2xl:w-full rounded-bl-4xl rounded-tl-4xl relative">
                     <img src="/landing-page/catagorie-2.png" loading="lazy" alt="image"
-                        class="h-auto mx-auto object-cover" />
+                        class="h-auto mx-auto object-cover 2xl:w-full 2xl:h-screen" />
 
                     <div class="absolute bottom-2 sm:bottom-7 left-2 sm:left-10">
                         <div
@@ -188,9 +188,9 @@
                     </button>
                 </div>
 
-                <div class="bg-[#F6F6F6] w-[681px] relative">
+                <div class="bg-[#F6F6F6] w-[681px] 2xl:w-full relative">
                     <img src="/landing-page/catagorie-1.png" loading="lazy" alt="image"
-                        class=" h-auto mx-auto object-cover" />
+                        class=" h-auto mx-auto object-cover 2xl:w-full 2xl:h-screen" />
 
                     <div class="absolute bottom-2 sm:bottom-7 left-2 sm:left-10">
                         <div

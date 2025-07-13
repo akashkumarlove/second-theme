@@ -87,12 +87,12 @@
 
             <!-- Banner -->
             <div class="sm:mt-19 mt-7 relative">
-                <div>
+                <div class="2xl:w-full 2xl-h-screen ">
                     <img src="/listing-page/banner.png" loading="lazy" alt="image"
-                        class="h-auto mx-auto object-cover" />
+                        class="h-auto mx-auto object-cover 2xl:w-full" />
                 </div>
 
-                <div class="absolute bottom-3 md:bottom-4 lg:bottom-33 left-3 md:left-10 lg:left-10 w-100">
+                <div class="absolute bottom-3 2xl:scale-119 md:bottom-4 lg:bottom-33 left-3 md:left-10 lg:left-10 w-100">
                     <p
                         class="font-semibold text-[14px] sm:text-[24px] leading-[100%] tracking-[0] font-['Open_Sans'] text-[#E7E7E3]">
                         Limited time only</p>
@@ -298,7 +298,7 @@
                         class="text-[#232321] font-['Rubik'] font-semibold text-[16px] leading-[100%] tracking-[0] uppercase mt-6">
                         Catogrious</h3>
 
-                    <div class="  text-[#232321] mt-4">
+                    <div class="  text-[#232321]  mt-4">
                         <div v-for="categrious in uniqueCategrious" class="flex gap-4 space-y-3">
                             <button @click="SelectedCategrious = categrious"
                                 class="w-5 h-5 cursor-pointer rounded-sm border border-black bg-transparent hover:bg-black hover:text-white transition-all duration-200"></button>
@@ -344,7 +344,7 @@
                 <!-- Cards -->
                 <div class="w-[72%] pt-">
 
-                    <div class="grid grid-cols-1 md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-5 lg:gap-15">
+                    <div class="grid grid-cols-1 2xl:grid-cols-4 md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-5 lg:gap-15">
                         <div v-for="card in filterProducts" class="flex flex-wrap flex-col justify-between ">
                             <div
                                 class="sm:w-63 w-79 lg:w-79 relative bg-white rounded-3xl h-87 flex flex-col justify-center items-center">
@@ -354,12 +354,12 @@
                             </div>
 
                             <h2
-                                class="text-[#232321] mt-4  font-[Rubik] font-semibold text-[22px] leading-[100%] tracking-[0]">
+                                class="text-[#232321] mt-4 max-w-79 font-[Rubik] font-semibold text-[22px] leading-[100%] tracking-[0]">
                                 {{
                                     card.name }}</h2>
 
                             <button
-                                class="py-4 mt-4 rounded-lg mr-4 bg-[#232321] text-white cursor-pointer hover:text-yellow-400">VEW
+                                class="py-4 mt-4 max-w-79 rounded-lg mr-4 bg-[#232321] text-white cursor-pointer hover:text-yellow-400">VEW
                                 PRODUCT - ${{ card.price }}</button>
                         </div>
                     </div>

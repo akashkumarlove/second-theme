@@ -92,26 +92,26 @@
             <div class="lg:flex md:flex-row mt-8 space-x-5 space-y-5 bg-[#d8d5d5]">
 
                 <!-- Images -->
-                <div class="">
+                <div class="2xl:w-[50%]">
                     <div class="flex gap-4">
-                        <div class="w-[439px]">
+                        <div class="w-[439px] 2xl:w-full">
                             <img src="/product-page/Rectangle-1.png" loading="lazy" alt="image"
                                 class="object-cover w-full" />
                         </div>
 
-                        <div class="w-[439px]">
+                        <div class="w-[439px] 2xl:w-full">
                             <img src="/product-page/Rectangle-2.png" loading="lazy" alt="image"
                                 class="object-cover w-full" />
                         </div>
                     </div>
 
                     <div class="flex mt-4 gap-4">
-                        <div class="w-[439px]">
+                        <div class="w-[439px] 2xl:w-full">
                             <img src="/product-page/Rectangle-3.png" loading="lazy" alt="image"
                                 class="object-cover w-full" />
                         </div>
 
-                        <div class="w-[439px]">
+                        <div class="w-[439px] 2xl:w-full">
                             <img src="/product-page/Rectangle-4.png" loading="lazy" alt="image"
                                 class="object-cover w-full" />
                         </div>
@@ -119,7 +119,7 @@
                 </div>
 
                 <!-- Right Side Content -->
-                <div class="">
+                <div class="2xl:w-[50%]">
                     <BaseButton label="New Release" />
 
                     <!-- Heading -->

@@ -111,7 +111,7 @@
                 <!-- Card , Summary -->
                 <div class="flex flex-col items-center md:flex-col lg:flex-row gap-6">
                     <!-- Cart -->
-                    <div class="mt-6 w-[100%] sm:w-auto bg-[#FAFAFA] p-2 sm:p-6 rounded-xl">
+                    <div class="mt-6 w-[100%] 2xl:w-[50%] sm:w-auto bg-[#FAFAFA] p-2 sm:p-6 rounded-xl">
                         <h2 class="text-[#232321] font-rubik font-semibold text-[18px] sm:text-[32px] leading-[100%] tracking-[0%]">
                             Your
                             Bag</h2>
@@ -173,7 +173,7 @@
                     </div>
 
                     <!-- Order Summary -->
-                    <div class="max-w-sm p-11 bg-[#FAFAFA] lg:bg-[#d8d5d5] rounded-md space-y-8 text-[#232321] font-rubik w-full">
+                    <div class="max-w-sm p-11 2xl:w-[50%] bg-[#FAFAFA] lg:bg-[#d8d5d5] rounded-md space-y-8 text-[#232321] font-rubik w-full">
                         <!-- Heading -->
                         <h2 class="font-rubik font-semibold text-[32px] leading-[100%] tracking-[0%]">Order Summary</h2>
 
