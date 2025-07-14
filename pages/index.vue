@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper bg-[#d8d5d5] w-screen h-screen pt-11">
 
-       <section class="lg:px-15 md:px-7 px-4">
+        <section class="lg:px-15 md:px-7 px-4">
             <header class=" bg-[#fafafa] py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
                 <!-- Links -->
                 <nav class="">
@@ -87,52 +87,58 @@
             </header>
 
         </section>
-        
+
         <!-- Another section -->
         <section class="bg-[#d8d5d5] pb-7 md:pb-12 lg:pb-22 lg:px-15 md:px-7 px-4">
-             <!-- Heading -->
-            <h1 class=" mt-6 font-rubik font-bold text-[50px] md:text-[105px] lg:text-[218px] leading-[100%] tracking-[0] uppercase">
+            <!-- Heading -->
+            <h1
+                class=" mt-6 font-rubik font-bold text-[50px] md:text-[105px] lg:text-[218px] leading-[100%] tracking-[0] uppercase">
                 DO IT <span class="text-[#4A69E2]">RIGHT</span>
             </h1>
 
             <!-- Large Image -->
-            <div class="relative mt-15 ">
-                <div class="h-[380px] md:h-auto 2xl:w-full 2xl:h-screen">
-                    <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy" class=" rounded-2xl 2xl:h-full 2xl-full sm:h-auto mx-auto object-cover"/>
-                </div>
+            <div class=" mt-8 sm:mt-15 ">
+                <div class="relative h-[380px] md:h-auto 2xl:w-full 2xl:h-screen">
+                    <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy"
+                        class=" rounded-2xl 2xl:h-full 2xl-full sm:h-auto mx-auto object-cover" />
 
-                <span
-                    class="font-[Rubik] absolute -left-24 top-25 sm:top-43 py-1.5 sm:py-5.5 rounded-lg px-6.5 sm:px-6 -rotate-90 font-semibold text-l sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
-                    product of the year </span>
 
-                <!-- text Box-->
-                <div class="absolute left-4 md:left-25 lg:left-10 top-59 md:top-55 lg:top-120 2xl:scale-115">
                     <span
-                        class=" font-[Rubik] font-semibold text-[20px] md:text-[40px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
-                        AIR MAX</span>
-                    <p
-                        class=" w-50 mt-2 font-[Open_Sans] sm:w-120 font-semibold text-[16px] md:text-[20px] lg:ext-[28px] leading-[100%] tracking-[0] text-[#E7E7E3]">
-                        Nike introducing the new air max for everyone's comfort</p>
-                    <BaseButton label="SHOP NOW" class="mt-6" />
-                </div>
+                        class="font-[Rubik] absolute xl:-left-16 -left-14 sm:-left-24 top-17 sm:top-43 py-1.5 sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
+                        product of the year </span>
 
-                <!-- Inner images -->
-                <div class="absolute top-42 md:top-30 right-2 md:right-5 lg:top-90 lg:right-10 2xl:scale-130">
-                    <div class="md:w-30 w-20 lg:w-40">
-                        <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
-                            class=" h-auto mx-auto object-cover" />
+                    <!-- text Box-->
+                    <div class="absolute left-8 md:left-25 lg:left-20 top-15 md:top-55 lg:top-70 xl:left-25 xl:top-110 2xl:scale-115">
+                        <span
+                            class=" font-[Rubik] font-semibold text-[16px] md:text-[40px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
+                            AIR MAX</span>
+                        <p
+                            class=" w-50 mt-2 font-[Open_Sans] sm:w-120 font-semibold text-[12px] md:text-[20px] lg:ext-[28px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            Nike introducing the new air max for everyone's comfort</p>
+                        <BaseButton label="SHOP NOW" class="mt-6" />
                     </div>
 
-                    <div class="mt-6 md:w-30 w-20 lg:w-40">
-                        <img src="/landing-page/Rectangle-2.png" alt="image" loading="lazy"
-                            class=" h-auto mx-auto object-cover" />
+                    <!-- Inner images -->
+                    <div class="absolute top-1 md:top-30 right-2 md:right-5 lg:top-30 xl:top-75 lg:right-10 2xl:scale-140">
+                        <div class="md:w-30 w-20 lg:w-40">
+                            <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
+                                class=" h-auto mx-auto object-cover" />
+                        </div>
+
+                        <div class="mt-6 md:w-30 w-20 lg:w-40">
+                            <img src="/landing-page/Rectangle-2.png" alt="image" loading="lazy"
+                                class=" h-auto mx-auto object-cover" />
+                        </div>
+
                     </div>
 
                 </div>
+
+
             </div>
 
             <!-- 2nd Heading -->
-            <div class="flex mt-10 sm:mt-17 items-start justify-between">
+            <div class="flex sm:mt-17 items-start justify-between">
                 <div>
                     <h2
                         class="text-[#232321] font-[Rubik] font-semibold md:text-[40px] lg:text-[74px] leading-[95%] tracking-[0] uppercase">
@@ -154,7 +160,8 @@
         <section class="bg-[#232321] pl-4 md:pl-10 lg:pl-16">
             <!-- Heading and Buttons-->
             <div class="flex justify-between items-center pr-4 md:pr-10 lg:pr-16 md:pt-14 pt-7 lg:pt-14">
-                <h2 class="font-rubik font-semibold md:text-[40px] text-[27px] lg:text-[74px] leading-[95%] tracking-[0] uppercase text-white">
+                <h2
+                    class="font-rubik font-semibold md:text-[40px] text-[27px] lg:text-[74px] leading-[95%] tracking-[0] uppercase text-white">
                     Categories</h2>
 
                 <div class="">
@@ -210,14 +217,15 @@
             </div>
         </section>
 
-        
+
 
         <!-- Section-3 -->
         <section class="md:px-7 px-4 lg:px-15 pt-7 md:pt-20 lg:pt-30 bg-[#d8d5d5]">
 
             <!-- Heading and Buttons-->
             <div class="flex justify-between items-center">
-                <h2 class="font-rubik font-semibold md:text-[40px] lg:text-[74px] leading-[95%] tracking-[0] uppercase text-[#232321]">
+                <h2
+                    class="font-rubik font-semibold md:text-[40px] lg:text-[74px] leading-[95%] tracking-[0] uppercase text-[#232321]">
                     REVIEWS</h2>
 
                 <div class="">
@@ -229,36 +237,40 @@
             <ReviewCard class="mt-5 sm:mt-10" />
         </section>
 
-        
+
 
         <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="flex bg-[#4A69E2] flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div class="flex bg-[#4A69E2] space-y-5 pb-10 flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
-                    <div class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
+                    <div
+                        class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
                         Join our KicksPlus </div>
                     <div
                         class="font-rubik mt-2 font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
                         Club & get 15% off </div>
 
-                    <p class="text-[#E7E7E3] mt-6 font-open font-semibold text-[16px] lg:text-[20px] leading-[100%] tracking-[0]">Sign
+                    <p
+                        class="text-[#E7E7E3] mt-6 font-open font-semibold text-[16px] lg:text-[20px] leading-[100%] tracking-[0]">
+                        Sign
                         up for free! Join the community.</p>
 
-                   <div class="flex lg:flex-row md:flex-col items-center mt-6 gap-4">
-                     <input type="text" placeholder="Email Address"
-                        class=" w-full border border-white text-white placeholder-white bg-transparent rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-white" />
-                    <BaseButton label="SUMBIT" class="bg-black"  />
-                   </div>
+                    <div class="flex lg:flex-row md:flex-col items-center mt-6 gap-4">
+                        <input type="text" placeholder="Email Address"
+                            class=" w-full border border-white text-white placeholder-white bg-transparent rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-white" />
+                        <BaseButton label="SUMBIT" class="bg-black" />
+                    </div>
                 </div>
 
                 <!-- Logo -->
-                <div class="font-rubik font-semibold mx-auto text-[70px] md:text-[100px] lg:text-[160px] leading-[100%] tracking-[0] uppercase text-white">
-                    KICKS</div>
+                <div class="w-[50%]">
+                    <img src="/logo.png"/>
+                </div>
             </div>
 
             <!-- Lists -->
-            <div class="bg-[#232321] rounded-3xl">
+            <div class="bg-[#232321] -mt-5 rounded-3xl">
                 <div class="p-10 flex flex-wrap justify-between">
 
                     <!-- About Us -->
@@ -277,10 +289,10 @@
                     <!-- Categories -->
                     <div class="mt-7 sm:mt-0">
                         <h2
-                            class="font-rubik mb-2 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                            class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Categories</h2>
                         <ul
-                            class="font-open flex flex-col gap-2 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            class="font-open flex flex-col gap-3 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
                             <li>Runners</li>
                             <li>Sneakers</li>
                             <li>Basketball</li>
@@ -293,10 +305,10 @@
                     <!-- Company -->
                     <div class="mt-7 sm:mt-0">
                         <h2
-                            class="font-rubik mb-2 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                            class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Company</h2>
                         <ul
-                            class="font-open flex flex-col gap-2 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            class="font-open flex flex-col gap-3 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
                             <li>About</li>
                             <li>Contact</li>
                             <li>Blogs</li>
@@ -305,7 +317,7 @@
 
                     <!-- Follow Us -->
                     <div class="mt-7 sm:mt-0">
-                        <h2 class="font-rubik font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                        <h2 class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Follow Us</h2>
                         <div class="flex gap-6 text-[28px] text-[#E7E7E3] mt-2">
                             <Icon icon="mdi:facebook" class="hover:text-blue-600 cursor-pointer" />
@@ -319,11 +331,14 @@
                 </div>
 
                 <!-- Big Logo -->
-                <div class="font-rubik font-semibold text-[110px] md:text-[250px] lg:text-[460px] text-bold text-center leading-[100%] tracking-[0] uppercase text-white">
-                    KICKS</div>
+                 <div class="flex justify-center items-center">
+                    <img src="/logo.png"/>
+                </div>
             </div>
 
-            <div class=" mt-8 font-open font-semibold text-[16px] leading-[100%] tracking-[0] text-center underline decoration-solid decoration-[0.5px] underline-offset-[0px]">© All rights reserved | Made with ❤️ by Visiata Systems International</div>
+            <div
+                class=" mt-8 font-open font-semibold text-[16px] leading-[100%] tracking-[0] text-center underline decoration-solid decoration-[0.5px] underline-offset-[0px]">
+                © All rights reserved | Made with ❤️ by Visiata Systems International</div>
 
 
 

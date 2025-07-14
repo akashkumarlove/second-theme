@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-wrap justify-between gap-4">
         <div v-for="card in Cards" class=" sm:w-87 bg-[#FAFAFA] lg:max-w-106 rounded-3xl">
             <div class="flex justify-between p-6">
 

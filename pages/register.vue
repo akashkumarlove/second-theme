@@ -238,7 +238,7 @@
           <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="flex bg-[#4A69E2] flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div class="flex bg-[#4A69E2] space-y-5 pb-10 flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -260,13 +260,13 @@
                 </div>
 
                 <!-- Logo -->
-                <div
-                    class="font-rubik font-semibold mx-auto text-[70px] md:text-[100px] lg:text-[160px] leading-[100%] tracking-[0] uppercase text-white">
-                    KICKS</div>
+                <div class="w-[50%]">
+                    <img src="/logo.png"/>
+                </div>
             </div>
 
             <!-- Lists -->
-            <div class="bg-[#232321] rounded-3xl">
+            <div class="bg-[#232321] -mt-5 rounded-3xl">
                 <div class="p-10 flex flex-wrap justify-between">
 
                     <!-- About Us -->
@@ -285,10 +285,10 @@
                     <!-- Categories -->
                     <div class="mt-7 sm:mt-0">
                         <h2
-                            class="font-rubik mb-2 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                            class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Categories</h2>
                         <ul
-                            class="font-open flex flex-col gap-2 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            class="font-open flex flex-col gap-3 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
                             <li>Runners</li>
                             <li>Sneakers</li>
                             <li>Basketball</li>
@@ -301,10 +301,10 @@
                     <!-- Company -->
                     <div class="mt-7 sm:mt-0">
                         <h2
-                            class="font-rubik mb-2 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                            class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Company</h2>
                         <ul
-                            class="font-open flex flex-col gap-2 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            class="font-open flex flex-col gap-3 font-semibold text-[20px] leading-[100%] tracking-[0] text-[#E7E7E3]">
                             <li>About</li>
                             <li>Contact</li>
                             <li>Blogs</li>
@@ -313,7 +313,7 @@
 
                     <!-- Follow Us -->
                     <div class="mt-7 sm:mt-0">
-                        <h2 class="font-rubik font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                        <h2 class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Follow Us</h2>
                         <div class="flex gap-6 text-[28px] text-[#E7E7E3] mt-2">
                             <Icon icon="mdi:facebook" class="hover:text-blue-600 cursor-pointer" />
@@ -327,9 +327,9 @@
                 </div>
 
                 <!-- Big Logo -->
-                <div
-                    class="font-rubik font-semibold text-[110px] md:text-[250px] lg:text-[460px] text-bold text-center leading-[100%] tracking-[0] uppercase text-white">
-                    KICKS</div>
+                 <div class="flex justify-center items-center">
+                    <img src="/logo.png"/>
+                </div>
             </div>
 
             <div
