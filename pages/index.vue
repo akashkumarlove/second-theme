@@ -97,8 +97,8 @@
             </h1>
 
             <!-- Large Image -->
-            <div class=" mt-8 sm:mt-15 ">
-                <div class="relative h-[380px] md:h-auto 2xl:w-full 2xl:h-screen">
+            <div class="mt-8 sm:mt-15 ">
+                <div class="relative md:h-auto 2xl:w-full 2xl:h-screen">
                     <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy"
                         class=" rounded-2xl 2xl:h-full 2xl-full sm:h-auto mx-auto object-cover" />
 
@@ -138,7 +138,7 @@
             </div>
 
             <!-- 2nd Heading -->
-            <div class="flex sm:mt-17 items-start justify-between">
+            <div class="flex mt-7 sm:mt-17 items-start justify-between">
                 <div>
                     <h2
                         class="text-[#232321] font-[Rubik] font-semibold md:text-[40px] lg:text-[74px] leading-[95%] tracking-[0] uppercase">

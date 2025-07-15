@@ -103,15 +103,6 @@ export const allProducts = ref( [
   }
 ])
 
-export const priceRanges = ref(
-  [
-  { label: "$0-$50", min: 0, max: 50 },
-  { label: "$50-$100", min: 50, max: 100 },
-  { label: "$100-$150", min: 100, max: 150 },
-  { label: "$150-$200", min: 150, max: 200 },
-  { label: "$300-$400", min: 300, max: Infinity }
-])
-
 
 
 

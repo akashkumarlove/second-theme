@@ -5,6 +5,7 @@ export function useFilter() {
     const selectedSize = ref(null)
     const SelectedCategrious = ref(null)
     const SelectedGender = ref(null)
+    const selectedPrice = ref(3500)
 
 
     const filterProducts = computed(() => {
@@ -21,8 +22,10 @@ export function useFilter() {
 
             const gender = SelectedGender.value ?
             product.gender === SelectedGender.value :true
+
+            const priceMatch = product.price <= selectedPrice.value
            
-            return colorMatch && sizeMatch && categrious && gender
+            return colorMatch && sizeMatch && categrious && gender && priceMatch
         })
     })
 
@@ -32,6 +35,7 @@ export function useFilter() {
         filterProducts,
         allProducts,
         SelectedCategrious,
-        SelectedGender
+        SelectedGender,
+        selectedPrice
     }
 }

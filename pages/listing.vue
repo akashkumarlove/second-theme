@@ -92,7 +92,8 @@
                         class="h-auto mx-auto object-cover 2xl:w-full" />
                 </div>
 
-                <div class="absolute bottom-3 2xl:scale-119 md:bottom-4 lg:bottom-33 left-3 md:left-10 lg:left-10 w-100">
+                <div
+                    class="absolute bottom-3 2xl:scale-119 md:bottom-4 lg:bottom-33 left-3 md:left-10 lg:left-10 w-100">
                     <p
                         class="font-semibold text-[14px] sm:text-[24px] leading-[100%] tracking-[0] font-['Open_Sans'] text-[#E7E7E3]">
                         Limited time only</p>
@@ -197,10 +198,23 @@
                             </div>
                         </div>
 
+
                         <!-- Price -->
                         <h3
                             class="text-[#232321] font-['Rubik'] font-semibold text-[16px] leading-[100%] tracking-[0] uppercase mt-6">
                             Price</h3>
+
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Price: ₹{{ selectedPrice }}</h3>
+                            <input type="range" min="0" max="3500" step="50" v-model="selectedPrice"
+                                class="w-full accent-blue-500 ursor-pointer" />
+                        </div>
+
+                        <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4 c">
+                            <div v-for="product in filterProducts" :key="product.id">
+
+                            </div>
+                        </div>
 
 
                     </div>
@@ -338,6 +352,18 @@
                         class="text-[#232321] font-['Rubik'] font-semibold text-[16px] leading-[100%] tracking-[0] uppercase mt-6">
                         Price</h3>
 
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2">Price: ₹{{ selectedPrice }}</h3>
+                        <input type="range" min="00" max="3500" step="50" v-model="selectedPrice"
+                            class="w-full accent-blue-500 ursor-pointer" />
+                    </div>
+
+                    <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4 c">
+                        <div v-for="product in filterProducts" :key="product.id">
+
+                        </div>
+                    </div>
+
 
                 </div>
 
@@ -348,7 +374,8 @@
                         <div v-for="card in filterProducts" class="flex flex-wrap flex-col justify-between ">
                             <div
                                 class="sm:w-63 w-79 lg:w-79 relative bg-white rounded-3xl h-87 flex flex-col justify-center items-center">
-                                <NuxtLink :to="`/cart-${card.id}`"><img :src="card.image" loading="lazy" alt="image" class="h-83 w-75 rounded-2xl" /></NuxtLink>
+                                <NuxtLink :to="`/cart-${card.id}`"><img :src="card.image" loading="lazy" alt="image"
+                                        class="h-83 w-75 rounded-2xl" /></NuxtLink>
                                 <span
                                     class="absolute bg-[#4A69E2] text-white font-rubik font-semibold text-[12px] rounded-br-2xl py-3 px-5 top-3 left-2 rounded-tl-2xl leading-none tracking-[0]">New</span>
                             </div>
@@ -400,7 +427,8 @@
         <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="flex bg-[#4A69E2] space-y-5 pb-10 flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div
+                class="flex bg-[#4A69E2] space-y-5 pb-10 flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -423,7 +451,7 @@
 
                 <!-- Logo -->
                 <div class="w-[50%]">
-                    <img src="/logo.png"/>
+                    <img src="/logo.png" />
                 </div>
             </div>
 
@@ -475,7 +503,8 @@
 
                     <!-- Follow Us -->
                     <div class="mt-7 sm:mt-0">
-                        <h2 class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
+                        <h2
+                            class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Follow Us</h2>
                         <div class="flex gap-6 text-[28px] text-[#E7E7E3] mt-2">
                             <Icon icon="mdi:facebook" class="hover:text-blue-600 cursor-pointer" />
@@ -489,8 +518,8 @@
                 </div>
 
                 <!-- Big Logo -->
-                 <div class="flex justify-center items-center">
-                    <img src="/logo.png"/>
+                <div class="flex justify-center items-center">
+                    <img src="/logo.png" />
                 </div>
             </div>
 
@@ -513,7 +542,7 @@
 import { Icon } from '@iconify/vue'
 
 
-const { filterProducts, selectedColor, selectedSize, allProducts, SelectedCategrious, SelectedGender } = useFilter()
+const { filterProducts, selectedColor, selectedSize, allProducts, SelectedCategrious, SelectedGender, selectedPrice } = useFilter()
 console.log("all ", filterProducts)
 console.log("alldata ", allProducts)
 
