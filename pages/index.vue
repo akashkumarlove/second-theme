@@ -100,15 +100,15 @@
             <div class="mt-8 sm:mt-15 ">
                 <div class="relative md:h-auto 2xl:w-full 2xl:h-screen">
                     <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy"
-                        class=" rounded-2xl 2xl:h-full 2xl-full sm:h-auto mx-auto object-cover" />
+                        class=" rounded-2xl 2xl:h-screen 2xl:w-full object-cover" />
 
 
                     <span
-                        class="font-[Rubik] absolute xl:-left-16 -left-14 sm:-left-24 top-17 sm:top-43 py-1.5 sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
+                        class="font-[Rubik] absolute -left-14 sm:-left-24 top-17 sm:top-43 py-1.5 sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
                         product of the year </span>
 
                     <!-- text Box-->
-                    <div class="absolute left-8 md:left-25 lg:left-20 top-15 md:top-55 lg:top-70 xl:left-25 xl:top-110 2xl:scale-115">
+                    <div class="absolute left-10 md:left-25 lg:top-75 lg:left-20 xl:top-115 xl:left-30 sm:left-25 sm:top-55 top-13 2xl:top-170 md:top-60 2xl:scale-120">
                         <span
                             class=" font-[Rubik] font-semibold text-[16px] md:text-[40px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
                             AIR MAX</span>
@@ -119,7 +119,7 @@
                     </div>
 
                     <!-- Inner images -->
-                    <div class="absolute top-1 md:top-30 right-2 md:right-5 lg:top-30 xl:top-75 lg:right-10 2xl:scale-140">
+                    <div class="absolute scale-70 sm:scale-100 top-4 md:top-30 right-2 md:right-5 xl:right-27 lg:top-30 xl:top-75 2xl:top-130 lg:right-10 2xl:scale-200">
                         <div class="md:w-30 w-20 lg:w-40">
                             <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
                                 class=" h-auto mx-auto object-cover" />
@@ -151,7 +151,9 @@
             </div>
 
             <!-- Cards -->
-            <Cards class="mt-7" />
+            <div class="flex justify-center">
+                <Cards class="mt-7" />
+            </div>
         </section>
 
 
@@ -242,7 +244,7 @@
         <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="flex bg-[#4A69E2] space-y-5 pb-10 flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -264,14 +266,14 @@
                 </div>
 
                 <!-- Logo -->
-                <div class="w-[50%]">
-                    <img src="/logo.png"/>
+                <div class="sm:w-[50%] flex">
+                    <img src="/logo.png" class="object-contain"/>
                 </div>
             </div>
 
             <!-- Lists -->
             <div class="bg-[#232321] -mt-5 rounded-3xl">
-                <div class="p-10 flex flex-wrap justify-between">
+                <div class="p-10 space-y-5 flex flex-wrap justify-between">
 
                     <!-- About Us -->
                     <div class="w-110">
@@ -287,7 +289,7 @@
                     </div>
 
                     <!-- Categories -->
-                    <div class="mt-7 sm:mt-0">
+                    <div class="">
                         <h2
                             class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Categories</h2>
@@ -303,7 +305,7 @@
                     </div>
 
                     <!-- Company -->
-                    <div class="mt-7 sm:mt-0">
+                    <div class="">
                         <h2
                             class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Company</h2>
@@ -316,7 +318,7 @@
                     </div>
 
                     <!-- Follow Us -->
-                    <div class="mt-7 sm:mt-0">
+                    <div class="">
                         <h2 class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Follow Us</h2>
                         <div class="flex gap-6 text-[28px] text-[#E7E7E3] mt-2">

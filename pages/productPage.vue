@@ -221,10 +221,10 @@
             <Cards class="mt-7" />
         </section>
 
-        <!-- Footer -->
+      <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="flex bg-[#4A69E2] space-y-5 pb-10 flex-wrap md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -246,14 +246,14 @@
                 </div>
 
                 <!-- Logo -->
-                <div class="w-[50%]">
-                    <img src="/logo.png"/>
+                <div class="sm:w-[50%] flex">
+                    <img src="/logo.png" class="object-contain"/>
                 </div>
             </div>
 
             <!-- Lists -->
             <div class="bg-[#232321] -mt-5 rounded-3xl">
-                <div class="p-10 flex flex-wrap justify-between">
+                <div class="p-10 space-y-5 flex flex-wrap justify-between">
 
                     <!-- About Us -->
                     <div class="w-110">
@@ -269,7 +269,7 @@
                     </div>
 
                     <!-- Categories -->
-                    <div class="mt-7 sm:mt-0">
+                    <div class="">
                         <h2
                             class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Categories</h2>
@@ -285,7 +285,7 @@
                     </div>
 
                     <!-- Company -->
-                    <div class="mt-7 sm:mt-0">
+                    <div class="">
                         <h2
                             class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Company</h2>
@@ -298,7 +298,7 @@
                     </div>
 
                     <!-- Follow Us -->
-                    <div class="mt-7 sm:mt-0">
+                    <div class="">
                         <h2 class="font-rubik mb-3 font-semibold text-[36px] leading-[100%] tracking-[0] text-[#FFA52F]">
                             Follow Us</h2>
                         <div class="flex gap-6 text-[28px] text-[#E7E7E3] mt-2">
