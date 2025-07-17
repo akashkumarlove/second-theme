@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap justify-between gap-4">
+    <div class="flex flex-wrap justify-center sm:justify-between items-center gap-4">
         <div v-for="card in Cards" class="flex flex-col justify-between mb-6">
             <div class="w-79 relative bg-white rounded-3xl h-87 flex flex-col justify-center items-center">
                 <img :src="card.image" loading="lazy" alt="image" class="h-83 w-75 rounded-2xl" />

@@ -2,7 +2,7 @@
     <div class="wrapper bg-[#d8d5d5] w-screen h-screen pt-11">
 
         <section class="lg:px-15 md:px-7 px-4">
-            <header class=" bg-[#fafafa] py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
+            <header :style="{backgroundColor: theme.selected.header}" class=" py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
                 <!-- Links -->
                 <nav class="">
                     <ul
@@ -98,9 +98,9 @@
 
             <!-- Large Image -->
             <div class="mt-8 sm:mt-15 ">
-                <div class="relative md:h-auto 2xl:w-full 2xl:h-screen">
+                <div class="relative md:h-auto w-[100%] 2xl:w-full 2xl:h-screen">
                     <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy"
-                        class=" rounded-2xl 2xl:h-screen 2xl:w-full object-cover" />
+                        class=" rounded-2xl mx-auto 2xl:h-screen w-full 2xl:w-full object-cover" />
 
 
                     <span
@@ -179,7 +179,7 @@
 
             <!-- Images -->
             <div class="md:mt-15 mt-7 flex ">
-                <div class="bg-[#ECEEF0] w-[681px] 2xl:w-full rounded-bl-4xl rounded-tl-4xl relative">
+                <div class="bg-[#ECEEF0] w-[50%] 2xl:w-full rounded-bl-4xl rounded-tl-4xl relative">
                     <img src="/landing-page/catagorie-2.png" loading="lazy" alt="image"
                         class="h-auto mx-auto object-cover 2xl:w-full 2xl:h-screen" />
 
@@ -197,7 +197,7 @@
                     </button>
                 </div>
 
-                <div class="bg-[#F6F6F6] w-[681px] 2xl:w-full relative">
+                <div class="bg-[#F6F6F6] w-[50%] 2xl:w-full relative">
                     <img src="/landing-page/catagorie-1.png" loading="lazy" alt="image"
                         class=" h-auto mx-auto object-cover 2xl:w-full 2xl:h-screen" />
 
@@ -242,9 +242,9 @@
 
 
         <!-- Footer -->
-        <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
+        <footer  class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div :style="{backgroundColor: theme.selected.footer}" class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -333,8 +333,8 @@
                 </div>
 
                 <!-- Big Logo -->
-                 <div class="flex justify-center items-center">
-                    <img src="/logo.png"/>
+                 <div class="flex justify-center items-center w-[100%]">
+                    <img src="/logo.png" class="w-full"/>
                 </div>
             </div>
 
@@ -358,6 +358,19 @@
 <script setup>
 
 import { Icon } from '@iconify/vue'
+import { useThemeStore } from '#imports'
+import { themeLoader } from '#imports'
+import { useLoading } from '#imports'
+
+await themeLoader()
+
+const theme = useThemeStore()
+const isLoading = useLoading()
+
+watch(() => theme.selected, (Val) => {
+    console.log('theme updated' , Val)
+}, {deep:true})
+
 
 const isMenuOpen = ref(false)
 

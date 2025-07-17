@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper bg-[#d8d5d5] h-screen pt-11">
         <section class="lg:px-15 md:px-7 px-4">
-           <header class=" bg-[#fafafa] py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
+           <header :style="{backgroundColor: theme.selected.header}" class=" bg-[#fafafa] py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
                 <!-- Links -->
                 <nav class="">
                     <ul
@@ -90,7 +90,7 @@
         <!-- Form -->
         <section class="lg:px-15 pt-1 md:px-7 px-4 mt-5 sm:mt-7 bg-[#d8d5d5]">
 
-            <div class=" md:flex flex-row gap-8">
+            <div class=" sm:flex flex-row gap-8">
 
                 <!-- Left: Login Form -->
                 <div class=" space-y-3 w-full sm:w-[50%] sm:px-5 lg:px-10">
@@ -114,7 +114,7 @@
                         </label>
 
                         <button
-                            class="w-full bg-[#232321] text-white py-4 rounded-lg font-[Rubik] text-[14px] font-semibold flex px-4 items-center justify-between gap-2">
+                            class="w-full lg:w-1/2 cursor-pointer bg-[#232321] text-white py-4 rounded-lg font-[Rubik] text-[14px] font-semibold flex px-4 items-center justify-between gap-2">
                             EMAIL LOGIN
                             <Icon icon="heroicons:arrow-right" class="w-5 h-5 text-white" />
                         </button>
@@ -154,7 +154,7 @@
                 </div>
 
                 <!-- Right: Reward Info -->
-                <div class=" w-full mt-5 md:mt-0 sm:w-[60%]  bg-white rounded-2xl p-7 space-y-6 shadow-lg">
+                <div class=" w-full mt-8 sm:mt-0 sm:w-[60%]  bg-white rounded-2xl p-7 space-y-6 shadow-lg">
                     <h2 class="font-[Rubik] text-[36px] font-bold text-[#232321]">Join Kicks Club Get Rewarded Today.</h2>
                     <p class="text-[#232321] text-[16px] font-[Open_Sans]">
                         As kicks club member you get rewarded with what you love for doing what you love.
@@ -183,7 +183,7 @@
         <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div :style="{backgroundColor: theme.selected.footer}" class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -296,6 +296,17 @@
 
 <script setup>
 import { Icon } from '@iconify/vue'
+import { useThemeStore } from '#imports'
+import { themeLoader } from '#imports'
+
+const theme = useThemeStore()
+
+await themeLoader()
+
+watch(() => theme.selected , (val) => {
+    console.log("Theme Changes" , val)
+}, {deep: true})
+
 
 const isMenuOpen = ref(false)
 

@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper bg-[#d8d5d5] h-screen pt-11">
         <section class="lg:px-15 md:px-7 px-4">
-           <header class=" bg-[#fafafa] py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
+           <header :style="{backgroundColor: theme.selected.header}"  class="py-3 sm:py-4 flex items-center justify-between rounded-xl px-5">
                 <!-- Links -->
                 <nav class="">
                     <ul
@@ -238,7 +238,7 @@
          <!-- Footer -->
         <footer class="lg:pt-30  md:pt-15 pt-7 md:px-7 px-4 lg:px-15 bg-[#d8d5d5]">
             <!-- Heading , logo -->
-            <div class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
+            <div :style="{backgroundColor: theme.selected.footer}" class="sm:flex bg-[#4A69E2] space-y-5 gap-10 pb-10 md:p-8 p-4 lg:p-17 rounded-tl-3xl rounded-tr-3xl justify-between">
                 <div class="">
                     <div
                         class="font-rubik font-semibold text-[30px] lg:text-[48px] leading-[100%] tracking-[0] uppercase text-white">
@@ -350,6 +350,17 @@
 <script setup>
 import { Icon } from '@iconify/vue'
 import { parse } from 'vue/compiler-sfc'
+
+import { useThemeStore } from '#imports'
+import { themeLoader } from '#imports'
+
+const theme = useThemeStore()
+
+await themeLoader()
+
+watch(() => theme.selected , (val) => {
+    console.log("Theme Changes" , val)
+}, {deep: true})
 
 const {allProducts} = useFilter()
 
