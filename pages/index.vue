@@ -92,40 +92,40 @@
         <section class="bg-[#d8d5d5] pb-7 md:pb-12 lg:pb-22 lg:px-15 md:px-7 px-4">
             <!-- Heading -->
             <h1
-                class=" mt-6 font-rubik font-bold text-[50px] md:text-[105px] lg:text-[218px] leading-[100%] tracking-[0] uppercase">
+                class=" mt-6 font-rubik font-bold text-[50px] md:text-[105px] lg:text-[150px] leading-[100%] tracking-[0] uppercase">
                 DO IT <span class="text-[#4A69E2]">RIGHT</span>
             </h1>
 
             <!-- Large Image -->
-            <div class="mt-8 sm:mt-15 ">
-                <div class="relative md:h-auto w-[100%] 2xl:w-full 2xl:h-screen">
+           <div class="mt-8 sm:mt-15 w-[100%]">
+                <div class="relative md:h-auto w-full 2xl:w-full 2xl:h-screen">
                     <img src="/landing-page/rectangle-image.png" alt="image" loading="lazy"
                         class=" rounded-2xl mx-auto 2xl:h-screen w-full 2xl:w-full object-cover" />
 
 
                     <span
-                        class="font-[Rubik] absolute -left-14 sm:-left-24 top-17 sm:top-43 py-1.5 sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
+                        class="font-[Rubik] absolute -left-14 2xl:-left-52 2xl:top-90 sm:-left-24 top-17 sm:top-43 py-2 2xl:py-10 2xl:px-15 sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold 2xl:text-[40px] text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
                         product of the year </span>
 
                     <!-- text Box-->
-                    <div class="absolute left-10 md:left-25 lg:top-75 lg:left-20 xl:top-115 xl:left-30 sm:left-25 sm:top-55 top-13 2xl:top-170 md:top-60 2xl:scale-120">
+                    <div class="absolute left-12 2xl:left-50 2xl:bottom-40 bottom-4 sm:left-25 sm:bottom-10 lg:left-35 lg:bottom-20">
                         <span
-                            class=" font-[Rubik] font-semibold text-[16px] md:text-[40px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
+                            class=" font-[Rubik] font-semibold 2xl:text-[110px] text-[16px] sm:text-[26px] md:text-[35px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
                             AIR MAX</span>
                         <p
-                            class=" w-50 mt-2 font-[Open_Sans] sm:w-120 font-semibold text-[12px] md:text-[20px] lg:ext-[28px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            class=" w-50 mt-2 font-[Open_Sans] 2xl:w-200 2xl:text-[55px] sm:w-120 font-semibold sm:text-[15px] text-[12px] md:text-[21px] lg:text-[28px] leading-[100%] tracking-[0] text-[#E7E7E3]">
                             Nike introducing the new air max for everyone's comfort</p>
-                        <BaseButton label="SHOP NOW" class="mt-6" />
+                        <BaseButton label="SHOP NOW" class="mt-3 sm:mt-6 2xl:w-70 2xl:h-20 2xl:text-[30px]" />
                     </div>
 
                     <!-- Inner images -->
-                    <div class="absolute scale-70 sm:scale-100 top-4 md:top-30 right-2 md:right-5 xl:right-27 lg:top-30 xl:top-75 2xl:top-130 lg:right-10 2xl:scale-200">
-                        <div class="md:w-30 w-20 lg:w-40">
+                    <div class="absolute bottom-3 right-3 sm:bottom-15 2xl:bottom-95 2xl:right-55 sm:right-10">
+                        <div class="md:w-30 w-18 lg:w-40 2xl:scale-200">
                             <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
                                 class=" h-auto mx-auto object-cover" />
                         </div>
 
-                        <div class="mt-6 md:w-30 w-20 lg:w-40">
+                        <div class="sm:mt-6 mt-4 2xl:mt-60 md:w-30 w-18 lg:w-40 2xl:scale-200">
                             <img src="/landing-page/Rectangle-2.png" alt="image" loading="lazy"
                                 class=" h-auto mx-auto object-cover" />
                         </div>
