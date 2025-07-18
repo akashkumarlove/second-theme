@@ -108,7 +108,7 @@
                         product of the year </span>
 
                     <!-- text Box-->
-                    <div class="absolute left-12 2xl:left-50 2xl:bottom-40 bottom-4 sm:left-25 sm:bottom-10 lg:left-35 lg:bottom-20">
+                    <div class="absolute left-12 2xl:left-35 2xl:bottom-40 bottom-4 sm:left-25 sm:bottom-10 lg:left-35 lg:bottom-20">
                         <span
                             class=" font-[Rubik] font-semibold 2xl:text-[110px] text-[16px] sm:text-[26px] md:text-[35px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
                             AIR MAX</span>
@@ -119,7 +119,7 @@
                     </div>
 
                     <!-- Inner images -->
-                    <div class="absolute bottom-3 right-3 sm:bottom-15 2xl:bottom-95 2xl:right-55 sm:right-10">
+                    <div class="absolute bottom-3 right-3 sm:bottom-15 2xl:bottom-150 2xl:right-30 sm:right-10">
                         <div class="md:w-30 w-18 lg:w-40 2xl:scale-200">
                             <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
                                 class=" h-auto mx-auto object-cover" />
