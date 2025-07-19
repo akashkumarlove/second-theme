@@ -104,28 +104,28 @@
 
 
                     <span
-                        class="font-[Rubik] absolute -left-14 2xl:-left-52 2xl:top-90 sm:-left-24 top-17 sm:top-43 py-2 2xl:py-10 2xl:px-15 sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold 2xl:text-[40px] text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
+                        class="font-[Rubik] absolute -left-14 sm:-left-24 top-17 sm:top-43 py-2  sm:py-5.5 rounded-lg px-2 sm:px-6 -rotate-90 font-semibold text-[12px] sm:text-xl leading-[100%] tracking-[0] text-[#E7E7E3] bg-[#232321]">Nike
                         product of the year </span>
 
                     <!-- text Box-->
-                    <div class="absolute left-12 2xl:left-50 2xl:bottom-40 bottom-4 sm:left-25 sm:bottom-10 lg:left-35 lg:bottom-20">
+                    <div class="absolute left-12 bottom-4 sm:left-25 sm:bottom-10 lg:left-35 lg:bottom-20">
                         <span
-                            class=" font-[Rubik] font-semibold 2xl:text-[110px] text-[16px] sm:text-[26px] md:text-[35px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
+                            class=" font-[Rubik] font-semibold  text-[16px] sm:text-[26px] md:text-[35px] lg:text-[74px] leading-[100%] tracking-[0] text-[#fafafa]">NIKE
                             AIR MAX</span>
                         <p
-                            class=" w-50 mt-2 font-[Open_Sans] 2xl:w-200 2xl:text-[55px] sm:w-120 font-semibold sm:text-[15px] text-[12px] md:text-[21px] lg:text-[28px] leading-[100%] tracking-[0] text-[#E7E7E3]">
+                            class=" w-50 mt-2 font-[Open_Sans] 2xl:w-200  sm:w-120 font-semibold sm:text-[15px] text-[12px] md:text-[21px] lg:text-[28px] leading-[100%] tracking-[0] text-[#E7E7E3]">
                             Nike introducing the new air max for everyone's comfort</p>
                         <BaseButton label="SHOP NOW" class="mt-3 sm:mt-6 2xl:w-70 2xl:h-20 2xl:text-[30px]" />
                     </div>
 
                     <!-- Inner images -->
-                    <div class="absolute bottom-3 right-3 sm:bottom-15 2xl:bottom-80 2xl:right-30 sm:right-10">
-                        <div class="md:w-30 w-18 lg:w-40 2xl:scale-180">
+                    <div class="absolute bottom-3 right-3 sm:bottom-15 sm:right-10">
+                        <div class="md:w-30 w-18 lg:w-40 ">
                             <img src="/landing-page/Rectangle-1.png" alt="image" loading="lazy"
                                 class=" h-auto mx-auto object-cover" />
                         </div>
 
-                        <div class="sm:mt-6 mt-4 2xl:mt-50 md:w-30 w-18 lg:w-40 2xl:scale-180">
+                        <div class="sm:mt-6 mt-4 md:w-30 w-18 lg:w-40 ">
                             <img src="/landing-page/Rectangle-2.png" alt="image" loading="lazy"
                                 class=" h-auto mx-auto object-cover" />
                         </div>
